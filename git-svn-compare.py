@@ -104,7 +104,7 @@ def main(dump_file, repo_path):
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print('Usage: compare.py <svn_dump_file> <full_path_to_git_repo>')
+        print('Usage: git-svn-compare.py <svn_dump_file> <full_path_to_git_repo>')
         sys.exit(1)
 
     dump_file = sys.argv[1]
